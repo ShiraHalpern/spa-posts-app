@@ -38,6 +38,7 @@ export default function NewPostDialog({
           fullWidth
           value={postTitle}
           onChange={(e) => setPostTitle(e.target.value)}
+          inputProps={{ maxlength: 20 }}
         />
       </DialogContent>
       <DialogContent>
@@ -51,6 +52,7 @@ export default function NewPostDialog({
           fullWidth
           value={postContent}
           onChange={(e) => setPostContent(e.target.value)}
+          inputProps={{ maxlength: 90 }}
         />
       </DialogContent>
       <DialogActions>
