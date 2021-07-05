@@ -42,6 +42,8 @@ export default function UserPosts() {
     body: {
       padding: "30px",
       fontSize: "20px",
+      overflowY: "auto",
+      overflowWrap: "break-word",
     },
   }));
 
